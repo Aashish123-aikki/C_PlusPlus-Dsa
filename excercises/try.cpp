@@ -4,6 +4,5 @@ using namespace std;
 
 
 int main(){
-        cout<<(~0);
-
+                cout<<(10>>2);
 }
