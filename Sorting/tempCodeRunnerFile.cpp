@@ -1,0 +1,2 @@
+
+            // current=arr[prev];
