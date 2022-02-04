@@ -1,1 +1,1 @@
-cin>>flag;
+return -1;  
