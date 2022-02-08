@@ -16,7 +16,8 @@ vector<string> vec;
 
 
 void helper(int n,int p){
-if(n>=p){
+     
+if(n>p){
     return ;
 }
   int bin=dectob(n);
@@ -24,7 +25,9 @@ if(n>=p){
   int i=0;
   bool isrepeat=false;
   while(i<str.length()-1){
-      if(str[i]==str[i+1]){
+    
+      if(str[i]==str[i+1])
+      {
           isrepeat=true;
       }
       i++;
