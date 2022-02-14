@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 vector<string> vec;
+      
 bool compare(string a,string b){
     int len1=a.length();
     int len2=b.length();
