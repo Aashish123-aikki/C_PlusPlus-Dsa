@@ -7,7 +7,7 @@ int sum(vector<vector<int>> v, int sr, int sc, int er, int ec){
     int i=sr;
     int j=sc;
     int sum=0;
-    while(i<=er and i<=ec){
+    while(i<=er and j<=ec){
             sum=sum+v[i][j];
             
             j++;
@@ -16,7 +16,7 @@ int sum(vector<vector<int>> v, int sr, int sc, int er, int ec){
                 i++;
             }
     }
-    cout<<sum;
+    return sum;
 }
 // int sum(vector<vector<int>> v, int sr, int sc, int er, int ec){
 //         int r=v.size();
@@ -48,9 +48,9 @@ int sum(vector<vector<int>> v, int sr, int sc, int er, int ec){
 
 int main(){
     vector<vector<int>> v={{1,2,3,4,5},
-                   {6,7,8,9,10},
-                   {11,12,13,14,15},
-                   {16,17,18,19,20}};
+                           {6,7,8,9,10},
+                           {11,12,13,14,15},
+                           {16,17,18,19,20}};
     int sr,sc,er,ec;
     cin>>sr>>sc>>er>>ec;
 cout<< sum(v,sr,sc,er,ec);

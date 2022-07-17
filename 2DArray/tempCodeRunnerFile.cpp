@@ -1,1 +1,1 @@
-cin>>sr>>sc>>er>>ec;
+cout<<sum<<endl;

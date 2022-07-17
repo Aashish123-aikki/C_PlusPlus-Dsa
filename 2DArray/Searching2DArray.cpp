@@ -10,7 +10,7 @@ pair<int,int> search(int a[][5],int r,int c,int n){
             // }
 
 
-//Time complexity o(n)
+//Time complexity o(n) //array must be sorted in this case....
             int i=0;
             int j=c-1;
             while(i<r and j>=0){
@@ -18,6 +18,7 @@ pair<int,int> search(int a[][5],int r,int c,int n){
                     return {i,j};
                 }
                 else if(a[i][j]>n){
+                
                    j--;
                 }
                 else{

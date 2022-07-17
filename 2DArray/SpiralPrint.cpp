@@ -8,7 +8,7 @@ void print(int arr[][10],int r,int c){
     int endrow=r-1;
     int endcol=c-1;
 
-while(startcol<=endrow and startrow<=endrow){
+while(startcol<=endcol and startrow<=endrow){
     //startrow....
     for(int col=startcol;col<endcol;col++){
         cout<<arr[startrow][col]<<" ";
@@ -50,6 +50,5 @@ int main(){
                    {21,22,23,24,25},
                    {26,27,28,29,30}};
     int r,c;
-    cin>>r>>c;
-    print(arr,r,c);
+    print(arr,6,5);
 }
