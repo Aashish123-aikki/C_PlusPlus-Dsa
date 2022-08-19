@@ -8,6 +8,7 @@ int main()
     for(auto x:words){
         t.insert(x);
     }
+
     t.smallMatch("he");
    
     return 0;
